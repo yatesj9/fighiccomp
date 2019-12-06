@@ -6,7 +6,7 @@ A Compojure/Fighweel/Reagent template
 
 Download/Clone the repo, change into the *fighiccomp* directory and run the below command
 ```clojure
-lein new fighicomp <project name>
+lein new fighiccomp <project name>
 ```
 
 ## Usage

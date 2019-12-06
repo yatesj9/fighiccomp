@@ -1,6 +1,6 @@
 # fighiccomp
 
-A Compojure/Fighweel/Reagent template, servied with Clojure
+A Compojure/Fighweel/Reagent template
 
 ## Installation
 

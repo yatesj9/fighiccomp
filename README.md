@@ -11,8 +11,8 @@ lein new fighiccomp <project name>
 
 ## Usage
 ```clojure
-;Require repl namespace
-(require '[<project name>.repl :refer [start-server stop-server]])
+;Require repl namespace, note repl.clj will be added to the project name -clj folder
+(require '[<project name>-clj.repl :refer [start-server stop-server]])
 
 ;Start webserver with specified environment config - check config.clj defautl port is 5566
 (start-server :development)

@@ -16,3 +16,7 @@
       (set-mode! mode)
       (serve (get-handler) {:port (get-settings :server :port)
                             :open-browser? false}))))
+
+(defn stop-server
+  []
+  (.stop @server))

@@ -1,6 +1,6 @@
 (ns {{ns-name}}.core
     (:require
-      [reagent.core :as r]))
+      [reagent.dom :as r]))
 
 ;; -------------------------
 ;; Views
